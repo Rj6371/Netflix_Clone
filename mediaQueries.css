@@ -1,0 +1,132 @@
+@media screen and (max-width:375px) {
+
+    .header {
+        padding: 6%;
+        padding-bottom: 0px;
+        width: 100%;
+        height: 107vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, .77)), url(image-netflix/nf-1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-weight: 900;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.125rem;
+        color: #ffffff;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.125rem;
+        color: #ffffff;
+    }
+
+    .center h3 {
+        padding-inline: .625rem;
+    }
+
+    .center {
+        margin-top: 5.625rem;
+    }
+
+    p {
+        font-size: 1.125rem;
+        color: #ffffff;
+        font-weight: 500;
+    }
+
+    img.nf-2 {
+        width: 6.0625rem;
+        height: 1.875rem;
+    }
+
+    button.eng .eng-text {
+        display: none;
+    }
+
+    button.sign {
+        width: 4.875rem;
+        height: 2rem;
+        font-size: .875rem;
+    }
+
+    .btn {
+        gap: .625rem;
+    }
+
+    .mail-btn {
+        flex-direction: column;
+    }
+
+    .input-mail {
+        width: 17.5rem;
+        height: 3.0625rem;
+    }
+
+    .get-started {
+        width: 9.6875rem;
+        height: 3.0625rem;
+        font-size: 1.125rem;
+        margin-top: .9375rem;
+    }
+
+    /* feature-section */
+
+    .container.feature {
+        flex-direction: column;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* question-section */
+
+    .frq label {
+        padding: 1.875rem 1.625rem;
+        font-size: 1.125rem;
+    }
+
+    .frq-search {
+        padding-inline: 1.875rem;
+    }
+
+    .frq label::after {
+        content: '+';
+        position: absolute;
+        top: 1.5625rem;
+        right: 1.875rem;
+        font-size: 6vw;
+    }
+
+    .mail-btn.get-started {
+        padding: 13px 2.8%;
+    }
+
+    /* footer */
+
+    .call {
+        text-align: center;
+    }
+
+    .footer-anchor {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.25rem;
+    }
+
+    .footer-btn {
+        width: 8.875rem;
+        height: 2.625rem;
+        margin-left: 5.625rem;
+    }
+}
